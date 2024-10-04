@@ -1,4 +1,13 @@
+![CSHARP](https://img.shields.io/badge/Language-CSHARP-aquamarine?style=for-the-badge&logo=csharp)
+<img src="https://img.shields.io/github/v/release/K3rnel-Dev/XDownloader?style=for-the-badge&color=cyan">
+<img src="https://img.shields.io/github/downloads/K3rnel-Dev/XDownloader/total?style=for-the-badge&color=green">
 ![Banner](banner.png) <img src="ALogo.png" width=250px>
+
+---
+
+### > **[⬇️ Download for Windows](https://github.com/K3rnel-Dev/XDownloader/releases/tag/Build)**
+
+---
 
 # 🛡️ About 
 
