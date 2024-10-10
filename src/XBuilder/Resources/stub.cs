@@ -262,11 +262,13 @@ namespace XStub
                 }
             }
         }
-
+        
         public static bool FileIsDownloaded()
         {
             try
             {
+                ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072 | (SecurityProtocolType)768;
+
                 if (File.Exists(Config.AppPath))
                 {
                     return true;
@@ -276,12 +278,14 @@ namespace XStub
                 {
                     client.DownloadFile(Config.TargetUrl, Config.AppPath);
                 }
-
                 return File.Exists(Config.AppPath);
             }
-            catch { return false; }
+            catch
+            {
+                return false;
+            }
         }
-
+        
         private static void StartProcess(string applicationPath)
         {
             var startInfo = new ProcessStartInfo()
